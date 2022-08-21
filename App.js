@@ -4,7 +4,7 @@ import { StyleSheet, Button, View, SafeAreaView, Text, Alert } from "react-nativ
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Button title="Press me" disabled onPress={() => Alert.alert("Cannot press this one")} />
+      <Button title="Press me" />
       <Text>Hello world! Welcome to Chronicle</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
